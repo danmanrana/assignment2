@@ -1,0 +1,32 @@
+1)
+
+[a@linux docs]$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/danmanrana/assignment2
+   7b5bf51..7aaca8d  master -> master
+
+2) 9
+
+3) [a@linux docs]$ git log --follow -- ../README.md
+Date:   Thu Oct 19 13:02:39 2023 -0500
+
+4) So that experimental or pending changes don't mess up the main branch without prior testing and tracking
+
+5) git log shows repo history metadata and git status shows whether the current branch has been changed or not
+
+6) git log --follow -- ../Vehicle.h
+
+7) git log --grep="file"
+
+8) Inheritance is when a class inherits (copies) attributes and functions from another class. Polymorphism is when a function can accept differents types or quantities of parameters. Encapsulation is when some aspects of classes are hidden (inaccessible) to instances.
+
+9) In the integration manager workflow, developers push to their own public repositories and then an integration manager pulls from those. In dictator and lieutenant, developers push directly to their lieutenants who solve conflicts and push to the dictator.
+
+10) A large team all pushing to the same shared repository would be much more chaotic and conflict-prone than in the dictator and lieutenant workflow where there are dedicated lieutenants solving conflicts.
+
